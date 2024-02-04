@@ -6,7 +6,7 @@
 /*   By: khalid <khalid@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/02 15:56:01 by klakbuic          #+#    #+#             */
-/*   Updated: 2024/02/04 12:02:14 by khalid           ###   ########.fr       */
+/*   Updated: 2024/02/04 12:59:57 by khalid           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static t_list	*ft_lstlast(t_list *lst)
 
 bool	ft_lstdel_back(t_list **lst, void (*del)(void *))
 {
-	t_list *last;
+	t_list	*last;
 
 	if (del == NULL || (*lst) == NULL || lst == NULL)
 		return (false);

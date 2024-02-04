@@ -6,7 +6,7 @@
 /*   By: khalid <khalid@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 08:53:23 by khalid            #+#    #+#             */
-/*   Updated: 2024/02/04 12:43:23 by khalid           ###   ########.fr       */
+/*   Updated: 2024/02/04 12:58:22 by khalid           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 bool	ft_stack_push(t_stack *stack, void *data)
 {
-	bool feedback;
+	bool	feedback;
 
 	if (stack == NULL)
 		return (false);

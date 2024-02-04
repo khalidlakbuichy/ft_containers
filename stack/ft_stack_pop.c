@@ -6,7 +6,7 @@
 /*   By: khalid <khalid@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 08:58:17 by khalid            #+#    #+#             */
-/*   Updated: 2024/02/04 12:36:06 by khalid           ###   ########.fr       */
+/*   Updated: 2024/02/04 12:58:18 by khalid           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 bool	ft_stack_pop(t_stack *stack, void (*del)(void *))
 {
-	bool feedback;
+	bool	feedback;
 
 	if (stack == NULL || ft_stack_is_empty(stack))
 		return (false);
